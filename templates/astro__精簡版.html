@@ -19,6 +19,22 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='astrostyle-ub.css') }}">
     <!-- 4. 引入.TailwindCSS output.css -->
     <link rel="stylesheet" href="../dist/output.css">
+    <meta property="og:title" content="問星 Ask Star" />
+    
+    <meta property="og:image" content="https://www.yourwebsite.com/images/share-thumbnail.jpg" />
+    
+    <meta property="og:url" content="https://astro-chart-to-text-simple.onrender.com/" />
+    
+    <meta property="og:description" content=" 結合古老占星智慧與現代AI科技，
+                為您提供客製個人化的星盤解析與人生指引。為了讓您更方便的使用 AI 聊天詢問占星，
+                此網站提供 AI 占星所需的星盤文字資料，
+                以及向 AI 諮詢占星的提問建議。" />
+    
+    <meta property="og:type" content="website" />
+    
+    <meta property="og:site_name" content="問星 Ask Star" />
+    
+    <meta property="og:locale" content="zh_TW" />
 </head>
 
     <body class="bg-single leading-loose tracking-widest md:tracking-normal md:leading-normal">
@@ -115,9 +131,11 @@
                          px-10 
                          py-2 
                          rounded-full 
-                         
-                         hover:bg-[linear-gradient(135deg,#84cc16,#f9a8d4)]
                          hover:text-[#422006]
+                         
+                         bg-[linear-gradient(135deg,#84cc16,#00cadc)]
+                         hover:bg-[linear-gradient(135deg,#84cc16,#cdfeff)]
+
                          
                          transition-all 
                          duration-300">
@@ -136,9 +154,11 @@
                          px-10 
                          py-2 
                          rounded-full 
-                         
+                         bg-[linear-gradient(135deg,#fde747,#ec48a1)]
                          hover:bg-[linear-gradient(135deg,#fef08a,#f9a8d4)]
                          hover:text-[#422006]
+
+                         ml-10
                          
                          transition-all 
                          duration-300">
@@ -178,7 +198,7 @@
         
             <p class="text-base md:text-xl text-gray-500 max-w-2xl mx-auto mt-8">
                 結合古老占星智慧與現代AI科技，<br>
-                為您提供精準個人化的星盤解析與人生指引
+                為您提供客製個人化的星盤解析與人生指引
             </p>
             <p class="text-sm md:text-base text-gray-500 max-w-2xl mx-auto mt-8">
                 （ 此網站皆採用現代占星常用的<br>
