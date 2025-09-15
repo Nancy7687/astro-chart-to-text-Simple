@@ -111,7 +111,7 @@
                     color: white;
                     /* 範例顏色 */
                     text-align: center;
-                    padding: 15px 0;
+                    padding: 50px 0;
                     /* 修復：增加上下間距以改善觸控體驗 */
                     text-decoration: none;
                     /* 修復：為每個項目添加最小高度 */
